@@ -15,7 +15,9 @@ These are the results for the June and December temperatures (See Table One):
 - The minimum June temperature was 64 degrees Fahrenheit while the December minimum temperate was much lower at 56.
 - The maximum June temperature was 85 degrees Fahrenheit while the December maximum temperature was awfully close at 83.
 
-![](RackMultipart20210418-4-18mf8nk_html_b22d8a4191a39008.png) **Summary**
+![image](https://user-images.githubusercontent.com/74743437/115160570-ea1fe800-a066-11eb-8133-6283d8eb8601.png)
+
+**Summary**
 
 The temperatures in December are slightly lower than June but suitable for a surf and ice cream shop business.More interesting weather data could be gathered by analyzing the following queries:
 
