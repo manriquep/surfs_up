@@ -15,6 +15,18 @@ These are the results for the June and December temperatures (See Table One):
 - The minimum June temperature was 64 degrees Fahrenheit while the December minimum temperate was much lower at 56.
 - The maximum June temperature was 85 degrees Fahrenheit while the December maximum temperature was awfully close at 83.
 
-![image](https://user-images.githubusercontent.com/74743437/115158089-7ed01900-a05a-11eb-8b1d-3de5a8bfb71d.png)
+![](RackMultipart20210418-4-18mf8nk_html_b22d8a4191a39008.png) **Summary**
 
-The results show that a surf and ice cream shop would sustain all year round being that the lowest temperature was 56 degrees Fahrenheit.
+The temperatures in December are slightly lower than June but suitable for a surf and ice cream shop business.More interesting weather data could be gathered by analyzing the following queries:
+
+- the total precipitation levels for June and December.
+
+session.query(Measurement.date, Measurement.prcp).filter(extract(&#39;month&#39;, Measurement.date) == 6).all()
+
+session.query(Measurement.date, Measurement.prcp).filter(extract(&#39;month&#39;, Measurement.date) == 12).all()
+
+- the amount of precipitation at the most active station for June and December.
+
+session.query(Measurement.prcp).filter(Measurement.station == &#39;USC00519281&#39;).filter(extract(&#39;month&#39;, Measurement.date) == 6).all()
+
+session.query(Measurement.prcp).filter(Measurement.station == &#39;USC00519281&#39;).filter(extract(&#39;month&#39;, Measurement.date) == 12).all()
