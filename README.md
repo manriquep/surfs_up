@@ -24,11 +24,19 @@ The temperatures in December are slightly lower than June but suitable for a sur
 - the total precipitation levels for June and December.
 
 session.query(Measurement.date, Measurement.prcp).filter(extract(&#39;month&#39;, Measurement.date) == 6).all()
+![image](https://user-images.githubusercontent.com/74743437/115160836-53542b00-a068-11eb-9975-094fa5ed18e5.png)
+
 
 session.query(Measurement.date, Measurement.prcp).filter(extract(&#39;month&#39;, Measurement.date) == 12).all()
+![image](https://user-images.githubusercontent.com/74743437/115160896-8b5b6e00-a068-11eb-8219-e1d0ca9a99a4.png)
+
 
 - the amount of precipitation at the most active station for June and December.
 
 session.query(Measurement.prcp).filter(Measurement.station == &#39;USC00519281&#39;).filter(extract(&#39;month&#39;, Measurement.date) == 6).all()
+![image](https://user-images.githubusercontent.com/74743437/115160925-bcd43980-a068-11eb-9453-8f8fae3337e1.png)
+
 
 session.query(Measurement.prcp).filter(Measurement.station == &#39;USC00519281&#39;).filter(extract(&#39;month&#39;, Measurement.date) == 12).all()
+![image](https://user-images.githubusercontent.com/74743437/115160915-a29a5b80-a068-11eb-901c-3673454ab89c.png)
+
