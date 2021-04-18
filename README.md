@@ -17,4 +17,4 @@ These are the results for the June and December temperatures (See Table One):
 
 ![image](https://user-images.githubusercontent.com/74743437/115158089-7ed01900-a05a-11eb-8b1d-3de5a8bfb71d.png)
 
-The results show that a surf and ice cream shop would sustain all year round being that the lowest temperature was 56 degrees Fahrenheit. Additional queries (Query One and Query Two) show the precipitation for June and December
+The results show that a surf and ice cream shop would sustain all year round being that the lowest temperature was 56 degrees Fahrenheit.
